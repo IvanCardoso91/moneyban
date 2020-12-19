@@ -376,9 +376,8 @@ li:last-child:before {
 }
 
 .btn-consult {
-    background: #FF781D 0% 0% no-repeat padding-box;
+    background: #FF781D;
     border-radius: 51px;
-    opacity: 1;
     outline: 0;
     padding: 16px;
     border-color: transparent;
@@ -393,15 +392,54 @@ li:last-child:before {
 
 /* FIM BOX IMG2 */
 
+.box-img3 {
+    display: flex;
+    align-items: center;
+    height: 972px;
+    background-image: url('../img/bg-facilitar-pagamento.jpg');
+}
+
+.box-smartphone {
+    margin-right: 138px;
+    margin-left: 322px;
+}
+
+.box-text-smart {
+    display: flex;
+    height: 450px;
+    width: 620px;
+    flex-direction: column;
+}
+
+.title-list2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.subtitle-list2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #FF781D;
+    margin-bottom: 38px;
+}
+
+.list-text2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+
 /* Footer */
+
 .footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     padding: 120px 240px;
-
     background-color: #757575;
 }
 
@@ -415,7 +453,6 @@ li:last-child:before {
 
 .social-media {
     margin-top: 20px;
-
     display: flex;
     justify-content: space-between;
 }
@@ -428,9 +465,7 @@ li:last-child:before {
 .footer-text {
     margin-left: 50px;
     width: 1075px;
-
     font-size: 20px;
-
     color: white;
 }
 
