@@ -14,6 +14,7 @@ body {
 
 a {
     cursor: pointer;
+    text-decoration: none;
 }
 
 
@@ -391,3 +392,56 @@ li:last-child:before {
 
 
 /* FIM BOX IMG2 */
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 120px 240px;
+
+    background-color: #757575;
+}
+
+.footer-info {
+    display: flex;
+}
+
+.contact-logo {
+    width: 250px;
+}
+
+.social-media {
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media img {
+    height: 65px;
+    width: 65px;
+}
+
+.footer-text {
+    margin-left: 50px;
+    width: 1075px;
+
+    font-size: 20px;
+
+    color: white;
+}
+
+.footer-text h3 {
+    margin-top: 0;
+}
+
+.footer-text p strong {
+    font-size: 30px;
+}
+
+.accepted-cards {
+    margin-top: 40px;
+}
