@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('/Repositorios/site-moneyban/assets/Century_Gothic.ttf')
+}
+
+body {
+    margin: 0px;
+}
+
+.menu-box {
+    background-color: #222222;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 97px;
+}
+
+.menu-options {
+    display: flex;
+}
+
+.menu-options-text {
+    color: #FFFFFF;
+    font: 20px;
+    font-family: ;
+}
+
+.teste {
+    background-color: red;
+}
+
+.teste1 {
+    background-color: blue;
+}
+
+.teste2 {
+    background-color: purple;
+}
+
+.teste3 {
+    background-color: green;
+}
