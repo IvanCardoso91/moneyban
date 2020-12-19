@@ -436,6 +436,8 @@ li:last-child:before {
 
 .footer-text h3 {
     margin-top: 0;
+    text-transform: uppercase;
+    font-size: 25px;
 }
 
 .footer-text p strong {
