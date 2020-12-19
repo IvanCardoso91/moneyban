@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Century Gothic';
-    src: url('/Repositorios/site-moneyban/assets/fonts/Century_Gothic.ttf')
+    src: url('../fonts/Century_Gothic.ttf')
 }
 
 head {
@@ -139,7 +139,7 @@ a {
     flex-direction: column;
     align-items: flex-end;
     height: 870px;
-    background-image: url('/Repositorios/site-moneyban/assets/img/bg-home-parcelar-documentos-carro-moto.jpg');
+    background-image: url('../img/bg-home-parcelar-documentos-carro-moto.jpg');
 }
 
 .right-side-box {
@@ -269,7 +269,7 @@ select::-ms-expand {
     flex-direction: column;
     align-items: flex-start;
     height: 972px;
-    background-image: url('/Repositorios/site-moneyban/assets/img/bg-como-funciona-parcelar-documentos-carro-moto.jpg');
+    background-image: url('../img/bg-como-funciona-parcelar-documentos-carro-moto.jpg');
 }
 
 .left-side-box {
