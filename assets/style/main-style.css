@@ -276,7 +276,6 @@ select::-ms-expand {
     align-items: flex-start;
     height: 972px;
     background-image: url('../img/bg-como-funciona-parcelar-documentos-carro-moto.jpg');
-    background-repeat: no-repeat;
 }
 
 .left-side-box {
@@ -407,6 +406,7 @@ li:last-child:before {
     flex-direction: column;
     height: 972px;
     background-image: url('../img/bg-facilitar-pagamento.jpg');
+    background-repeat: no-repeat;
 }
 
 .box-img3-content {
@@ -845,6 +845,18 @@ li:last-child:before {
     margin-top: 200px;
 }
 
+.box-img3-content-mobile {
+    display: none;
+}
+
+.box-img5-mobile {
+    display: none;
+}
+
+.appointment-section-mobile {
+    display: none;
+}
+
 
 /* DESKTOP RESPONSIVO */
 
@@ -925,11 +937,26 @@ li:last-child:before {
         width: 70%;
         padding: 35px 0px;
     }
+    .box-img3-content-mobile {
+        display: none;
+    }
+    .appointment-section-mobile {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1381px) and (max-width: 1813px) {
     .mobile-image {
         left: 10px;
+    }
+    .box-img3-content-mobile {
+        display: none;
+    }
+    .box-img5-mobile {
+        display: none;
+    }
+    .appointment-section-mobile {
+        display: none;
     }
 }
 
@@ -985,8 +1012,12 @@ li:last-child:before {
         margin-top: 40px;
     }
     .box-img2 {
-        background-position-x: -1000px;
-        background-image: linear-gradient(to bottom, transparent, #222222, #222222), url('../img/bg-como-funciona-parcelar-documentos-carro-moto.jpg');
+        background-position-x: -1200px;
+        background-image: url('../img/bg-como-funciona-parcelar-documentos-carro-moto.jpg');
+        background-size: cover;
+        height: 100%;
+        background-color: #222222;
+        padding: 60px 35px;
     }
     .btn-consult {
         margin-left: 200px;
@@ -994,6 +1025,7 @@ li:last-child:before {
     .left-side-box {
         margin-left: 90px;
         margin-top: 10px;
+        margin-bottom: 25px;
     }
     .left-side-box2 {
         margin-left: 50px;
@@ -1002,7 +1034,129 @@ li:last-child:before {
     .text-display-list {
         width: 500px;
     }
+    .box-img3 {
+        height: 100%;
+        background-size: cover;
+    }
     .box-img3-content {
+        display: none;
+    }
+    .box-img3-content-mobile {
+        display: flex;
         flex-direction: column;
+        align-items: center;
+        padding: 60px 36px;
+        text-align: center;
+    }
+    .box-smartphone {
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+        transform: matrix(0.87, -0.5, 0.5, 0.87, 0, 0);
+        margin-bottom: 100px;
+    }
+    .btn-consult2 {
+        margin-left: 150px;
+    }
+    .center-know-more3 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .box-img4 {
+        background-position-x: -1000px;
+        align-items: center;
+        height: 100%;
+        background-image: linear-gradient(to bottom, transparent, #222222, #222222), url('../img/bg-depoimento-parcelamento-documentacao.jpg');
+        padding: 60px 36px;
+    }
+    .box4-subtitle {
+        margin-bottom: 125px;
+    }
+    .left-side-box4 {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .content-text {
+        margin-top: 385px;
+    }
+    .box-img5 {
+        display: none;
+    }
+    .box5-content {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .faq-responsive {
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    .box-img5-mobile {
+        display: flex;
+        flex-direction: column;
+        background-image: url('../img/bg-carro-fale-conosco.jpg');
+        background-repeat: no-repeat;
+        height: 1500px;
+        background-size: cover;
+    }
+    .left-title {
+        text-align: center;
+    }
+    .left-content {
+        margin-right: 0px;
+        align-items: center;
+        text-align: center;
+    }
+    .mobile-image {
+        display: none;
+    }
+    .appointment-section {
+        display: none;
+    }
+    .appointment-section-mobile {
+        display: flex;
+        justify-content: center;
+        background-color: #FF781D;
+        color: #fff;
+        height: 100%;
+    }
+    .appointment-text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .search-renavam {
+        padding: 20px;
+        width: 602px;
+        margin-bottom: 40px;
+    }
+    .about-wrapper {
+        padding: 20px 36px 20px 36px;
+    }
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-text {
+        margin-right: 0px;
+    }
+    .footer {
+        padding: 0px;
+    }
+    .footer-info {
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 35px;
+    }
+    .footer-text {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .cards-mobile {
+        width: 500px;
     }
 }
