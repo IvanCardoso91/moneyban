@@ -483,6 +483,7 @@ li:last-child:before {
     font-size: 50px;
     font-weight: bold;
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
 
 .box4-subtitle {
@@ -495,14 +496,50 @@ li:last-child:before {
     width: 32px;
     background-color: #FF781D;
     height: 23px;
+    margin-right: 14px;
+}
+
+.ball-orange {
+    width: 5px;
+    height: 5px;
+    background-color: #FF781D;
+    border-radius: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
+    position: relative;
+    bottom: 4px;
 }
 
 .subtitle-name {
-    font-size: 35px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FF781D;
 }
 
 .subtitle-city {
+    font-size: 25px;
     font-style: italic;
+    color: #FF781D;
+}
+
+.content-text {
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.content-subtext {
+    font-size: 25px;
+    font-weight: bold;
+    color: #FF781D;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.center-know-more4 {
+    position: relative;
+    align-self: center;
+    top: 60px;
+    left: 350px;
 }
 
 
