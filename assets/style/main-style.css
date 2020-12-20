@@ -392,6 +392,9 @@ li:last-child:before {
 
 /* FIM BOX IMG2 */
 
+
+/* INICIO BOX IMG3 */
+
 .box-img3 {
     display: flex;
     align-items: center;
@@ -406,7 +409,7 @@ li:last-child:before {
 
 .box-text-smart {
     display: flex;
-    height: 450px;
+    height: 700px;
     width: 620px;
     flex-direction: column;
 }
@@ -429,7 +432,81 @@ li:last-child:before {
     font-size: 25px;
     font-weight: bold;
     color: #FFFFFF;
+    display: flex;
 }
+
+.btn-consult2 {
+    background: #FF781D;
+    border-radius: 51px;
+    outline: 0;
+    padding: 16px;
+    border-color: transparent;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 10px rgba(255, 120, 29, .3);
+    width: 326px;
+    margin-top: 30px;
+}
+
+.center-know-more3 {
+    position: relative;
+    top: 192px;
+    right: 150px;
+}
+
+
+/* FIM BOX IMG3 */
+
+
+/* INICIO BOX IMG4 */
+
+.box-img4 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: center;
+    height: 972px;
+    background-image: url('../img/bg-depoimento-parcelamento-documentacao.jpg');
+}
+
+.left-side-box4 {
+    margin-top: 146px;
+    margin-left: 290px;
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+}
+
+.box4-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.box4-subtitle {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.box-orange {
+    width: 32px;
+    background-color: #FF781D;
+    height: 23px;
+}
+
+.subtitle-name {
+    font-size: 35px;
+}
+
+.subtitle-city {
+    font-style: italic;
+}
+
+
+/* FIM BOX IMG4 */
 
 
 /* Footer */
