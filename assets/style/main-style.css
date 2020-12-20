@@ -697,6 +697,7 @@ li:last-child:before {
     border-radius: 30px;
     font-size: 14px;
     color: #FFFFFF;
+    outline: 0;
 }
 
 
