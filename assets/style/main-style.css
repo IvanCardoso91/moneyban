@@ -398,18 +398,26 @@ li:last-child:before {
 .box-img3 {
     display: flex;
     align-items: center;
+    flex-direction: column;
     height: 972px;
     background-image: url('../img/bg-facilitar-pagamento.jpg');
+}
+
+.box-img3-content {
+    display: flex;
+    align-items: center;
+    height: 867px;
+    margin-right: 290px;
 }
 
 .box-smartphone {
     margin-right: 138px;
     margin-left: 322px;
+    margin-top: 50px;
 }
 
 .box-text-smart {
     display: flex;
-    height: 700px;
     width: 620px;
     flex-direction: column;
 }
@@ -433,6 +441,7 @@ li:last-child:before {
     font-weight: bold;
     color: #FFFFFF;
     display: flex;
+    padding-bottom: 30px;
 }
 
 .btn-consult2 {
@@ -451,9 +460,7 @@ li:last-child:before {
 }
 
 .center-know-more3 {
-    position: relative;
-    top: 192px;
-    right: 150px;
+    margin-top: 40px;
 }
 
 
@@ -536,10 +543,9 @@ li:last-child:before {
 }
 
 .center-know-more4 {
-    position: relative;
-    align-self: center;
-    top: 60px;
-    left: 350px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 
