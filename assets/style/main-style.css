@@ -545,6 +545,70 @@ li:last-child:before {
 
 /* FIM BOX IMG4 */
 
+/* Appointment Section */
+
+.appointment-section {
+    padding: 90px 290px;
+
+    display: flex;
+    justify-content: flex-end;
+
+    z-index: 0;
+    position: relative;
+
+    background-color: #FF781D;
+    color: white;
+}
+
+.appointment-text {
+    width: 50%;
+}
+
+.appointment-text h1 {
+    margin-top: 0;
+    font-size: 50px;
+}
+
+.mobile-image {
+    height: 115%;
+    left: 290px;
+    top: -92px;
+
+    z-index: 3;
+    position: absolute;
+}
+
+.search-renavam {
+    width: 100%;
+
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 2px solid white;
+    border-radius: 51px;
+
+    padding: 10px 10px 10px 30px;
+}
+
+.search-renavam form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-renavam-btn {
+    justify-self: flex-end;
+
+    padding: 15px 20px;
+
+    border-radius: 51px;
+    border: none;
+
+    background-color: #222;
+
+    font-family: 'Century Gothic';
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
 
 /* About */
 
