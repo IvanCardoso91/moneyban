@@ -9,6 +9,10 @@ function myFunction(option) {
 
 }
 
+function menuMobile() {
+    document.getElementById("dropdownMenuMobile").classList.toggle("show");
+}
+
 // Close the dropdown if the user clicks outside of it
 window.onclick = ({ target }) => {
     if (!target.matches('.menu-options-btn')) {

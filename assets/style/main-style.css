@@ -43,6 +43,10 @@ a {
     color: #FF781D;
 }
 
+.menu-mobile {
+    display: none;
+}
+
 .menu-options {
     display: flex;
     align-items: center;
@@ -141,6 +145,7 @@ a {
     align-items: flex-end;
     height: 870px;
     background-image: url('../img/bg-home-parcelar-documentos-carro-moto.jpg');
+    background-repeat: no-repeat;
 }
 
 .right-side-box {
@@ -271,6 +276,7 @@ select::-ms-expand {
     align-items: flex-start;
     height: 972px;
     background-image: url('../img/bg-como-funciona-parcelar-documentos-carro-moto.jpg');
+    background-repeat: no-repeat;
 }
 
 .left-side-box {
@@ -924,5 +930,79 @@ li:last-child:before {
 @media only screen and (min-width: 1381px) and (max-width: 1813px) {
     .mobile-image {
         left: 10px;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 799px) {
+    .menu-box {
+        justify-content: space-between;
+    }
+    .site-title {
+        margin-left: 17px;
+    }
+    .menu-mobile {
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        margin-right: 17px;
+    }
+    .fa-bars {
+        font-size: 50px;
+        color: #FFFFFF;
+    }
+    .menu-bar-mobile {
+        background-color: transparent;
+        outline: 0;
+        border-color: transparent;
+    }
+    .show {
+        position: absolute;
+        margin-top: 295px;
+        right: 0px;
+        width: 200px;
+    }
+    .menu-options {
+        display: none;
+    }
+    .box-img1 {
+        align-items: center;
+        height: 1100px;
+        background-image: linear-gradient(to bottom, transparent, #222222, #222222), url('../img/bg-home-parcelar-documentos-carro-moto.jpg');
+    }
+    .right-side-box {
+        text-align: center;
+        margin-right: 0px;
+        margin-top: 450px;
+    }
+    .right-side-box2 {
+        text-align: center;
+        margin-right: 0px;
+    }
+    .right-side-box3 {
+        margin-right: 0px;
+    }
+    .center-know-more {
+        margin-top: 40px;
+    }
+    .box-img2 {
+        background-position-x: -1000px;
+        background-image: linear-gradient(to bottom, transparent, #222222, #222222), url('../img/bg-como-funciona-parcelar-documentos-carro-moto.jpg');
+    }
+    .btn-consult {
+        margin-left: 200px;
+    }
+    .left-side-box {
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+    .left-side-box2 {
+        margin-left: 50px;
+        margin-top: 0px;
+    }
+    .text-display-list {
+        width: 500px;
+    }
+    .box-img3-content {
+        flex-direction: column;
     }
 }
