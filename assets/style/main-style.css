@@ -834,3 +834,95 @@ li:last-child:before {
 .accepted-cards {
     margin-top: 40px;
 }
+
+.faq-responsive {
+    margin-top: 200px;
+}
+
+
+/* DESKTOP RESPONSIVO */
+
+@media only screen and (min-width: 800px) and (max-width: 1380px) {
+    .right-side-box {
+        margin-right: 150px;
+    }
+    .right-side-box2 {
+        margin-right: 150px;
+    }
+    .right-side-box3 {
+        margin-right: 100px;
+    }
+    .center-know-more {
+        margin-top: 80px;
+    }
+    .list-responsive {
+        width: 380px;
+    }
+    .left-side-box {
+        margin-top: 0px;
+        margin-left: 80px;
+    }
+    .left-side-box2 {
+        margin-left: 80px;
+    }
+    .li-responsive {
+        padding-bottom: 0px;
+    }
+    .btn-consult {
+        margin-left: 0px;
+    }
+    .center-know-more2 {
+        margin-top: 0px;
+        margin-left: 290px;
+    }
+    .box-smartphone {
+        display: none;
+    }
+    .box-text-smart {
+        margin-left: 290px;
+    }
+    .left-side-box4 {
+        margin-left: 145px;
+    }
+    .box-img5 {
+        height: 1620px;
+    }
+    .box5-content {
+        flex-direction: column;
+    }
+    .left-content {
+        margin-right: 180px;
+    }
+    .faq-responsive {
+        margin-top: 100px;
+        margin-right: 290px;
+    }
+    .mobile-image {
+        display: none;
+    }
+    .make-appointment {
+        width: 200px;
+    }
+    .footer-text {
+        width: 500px;
+    }
+    .accepted-cards {
+        width: 500px;
+        margin-right: 325px;
+    }
+    .appointment-section {
+        padding: 0px;
+        justify-content: center;
+        position: none;
+    }
+    .appointment-text {
+        width: 70%;
+        padding: 35px 0px;
+    }
+}
+
+@media only screen and (min-width: 1381px) and (max-width: 1813px) {
+    .mobile-image {
+        left: 10px;
+    }
+}
