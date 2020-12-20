@@ -431,6 +431,82 @@ li:last-child:before {
     color: #FFFFFF;
 }
 
+/* About */
+.about-wrapper {
+    padding: 110px 290px 20px 290px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #222222;
+    color: white;
+}
+
+.about {
+    display: flex;
+}
+
+.about-text {
+    width: 50%;
+    margin-right: 100px;
+
+    font-size: 25px;
+}
+.about-wrapper h1 {
+    align-self: flex-start;
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.about-text p strong {
+    color: #FF781D;
+}
+
+.values {
+    width: 50%;
+}
+
+.values h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #FF781D;
+    margin-bottom: 20px;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.values-item img {
+    width: 70px;
+}
+
+.values-item p {
+    font-size: 25px;
+}
+
+.make-appointment {
+    margin-top: 50px;
+    padding: 4px 13px 6px 17px;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    color: #FFFFFF;
+    background: #0000004D 0% 0% no-repeat padding-box;
+    
+    border-radius: 51px;
+    border-color: transparent;
+}
+
+.make-appointment i {
+    color: #FF781D;
+}
 
 /* Footer */
 
