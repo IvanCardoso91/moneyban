@@ -629,7 +629,7 @@ li:last-child:before {
 .box-img5 {
     display: flex;
     flex-direction: column;
-    height: 886px;
+    height: auto;
     background-image: url('../img/bg-carro-fale-conosco.jpg');
 }
 
@@ -649,9 +649,9 @@ li:last-child:before {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    height: 322px;
+    height: auto;
     margin-left: 290px;
-    margin-top: 35px;
+    margin-top: 0px;
 }
 
 .left-content {
@@ -849,10 +849,6 @@ li:last-child:before {
 
 .accepted-cards {
     margin-top: 40px;
-}
-
-.faq-responsive {
-    margin-top: 200px;
 }
 
 .box-img3-content-mobile {
