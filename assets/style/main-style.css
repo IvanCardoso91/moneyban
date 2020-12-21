@@ -870,7 +870,7 @@ li:last-child:before {
 
 /* DESKTOP RESPONSIVO */
 
-@media only screen and (min-width: 800px) and (max-width: 1380px) {
+@media only screen and (min-width: 800px) and (max-width: 1600px) {
     .menu-box {
         height: 60px;
     }
