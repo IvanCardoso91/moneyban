@@ -25,7 +25,7 @@
         <div class="menu-options">
             <div style="height: 100%; display: flex;align-items: center;">
                 <button onclick="myFunction('personal')" class="menu-options-btn menu-options-text">Para Você <i class="fas fa-chevron-down"></i></button>
-                <div style="position: absolute; margin-top: 335px;">
+                <div class="dropdown-position1">
                     <div id="myDropdown" class="dropdown-content">
                         <a>Detran Parcelado</a>
                         <a>Credito Pessoal <span>(em breve)</span></a>
@@ -37,7 +37,7 @@
             </div>
             <div style="height: 100%; display: flex;align-items: center;">
                 <button onclick="myFunction('enterprise')" class="menu-options-btn menu-options-text">Para Sua Empresa <i class="fas fa-chevron-down"></i></button>
-                <div style="position: absolute; margin-top: 295px;">
+                <div class="dropdown-position2">
                     <div id="enterpriseDropdown" class="dropdown-content" style="margin-left: 18px;">
                         <a>Detran Parcelado Frota</a>
                         <a>Capital de Giro <span>(em breve)</span></a>
@@ -57,7 +57,7 @@
 <body>
     <div class="box-img1">
         <div class="right-side-box">
-            <span class="right-side-text">Parcele <span style="color: #FF781D !important; font-size: 70px; font-weight: bold"> em 12x </span> os débitos de seu veículo de maneira fácil</span>
+            <span id="form" class="right-side-text">Parcele <span style="color: #FF781D !important; font-size: 70px; font-weight: bold"> em 12x </span> os débitos de seu veículo de maneira fácil</span>
         </div>
         <div class="right-side-box2">
             <span class="right-side-text2">IPVA, Livenciamento, DPVAT e Multas</span>
@@ -143,7 +143,7 @@
                     </div>
                 </li>
             </ul>
-            <button class="btn-consult">Consulte Grátis Agora</button>
+            <a href="#form"><button class="btn-consult">Consulte Grátis Agora</button></a>
         </div>
         <div class="center-know-more2">
             <a href="#"><button class="know-more-box">Saiba mais <i class="fas fa-chevron-down"></i></button></a>
@@ -180,7 +180,7 @@
                     Pagamento de dívidas facilitado
                 </span>
                 <br>
-                <button class="btn-consult2">Consulte Grátis Agora</button>
+                <a href="#form"><button class="btn-consult2">Consulte Grátis Agora</button></a>
             </div>
         </div>
         <div class="box-img3-content-mobile">
@@ -191,7 +191,7 @@
             <div class="box-smartphone">
                 <img src="./assets/img/mobile-pagamento-parcelado.png" alt="Smartphone" width="331px" height="373px">
             </div>
-            <div class="box-text-smart">
+            <a class="box-text-smart">
                 <span class="list-text2">
                     <img src="./assets/svg/consulta-gratis.svg" alt="consulta" height="35px" style="margin-right: 13px;">
                     Consulte grátis seus débitos em tempo real
@@ -212,12 +212,12 @@
                     Pagamento de dívidas facilitado
                 </span>
                 <br>
-                <button class="btn-consult2">Consulte Grátis Agora</button>
-            </div>
+                <a href="#form"><button class="btn-consult2">Consulte Grátis Agora</button></a>
         </div>
         <div class="center-know-more3">
             <a href="#"><button class="know-more-box">Saiba mais <i class="fas fa-chevron-down"></i></button></a>
         </div>
+    </div>
     </div>
 
     <div class="box-img4">
@@ -237,7 +237,7 @@
             <div class="content-subtext">
                 Faça como o Everton você também! Realize sua consulta gratuita e surpreenda-se!
             </div>
-            <button class="btn-consult2">Consulte Grátis Agora</button>
+            <a href="#form"><button class="btn-consult2">Consulte Grátis Agora</button></a>
         </div>
         <div class="center-know-more4">
             <a href="#"><button class="know-more-box">Saiba mais <i class="fas fa-chevron-down"></i></button></a>
@@ -254,7 +254,7 @@
                 <span class="left-text">Se preferir, você também pode conversar conosco através de nosso Whatsapp ou email. Teremos o maior prazer em atendê-lo</span>
                 <span class="left-text"><strong>(11) 98789-7777 </strong> - Exclusivo WhatsApp</span>
                 <span class="left-text"><strong>meajuda@moneyban.com.br</strong></span>
-                <button class="btn-whats">Fale conosco pelo Whatsapp</button>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=5511987897777"><button class="btn-whats">Fale conosco pelo Whatsapp</button></a>
             </div>
             <div class="faq-responsive">
                 <div class="accordion-item">

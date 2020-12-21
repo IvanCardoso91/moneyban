@@ -105,6 +105,16 @@ a {
     transition: all 2s ease-in-out;
 }
 
+.dropdown-position1 {
+    position: absolute;
+    margin-top: 295px;
+}
+
+.dropdown-position2 {
+    position: absolute;
+    margin-top: 295px;
+}
+
 .dropdown-content a {
     color: #FFFFFF !important
 }
@@ -406,7 +416,7 @@ li:last-child:before {
     flex-direction: column;
     height: 972px;
     background-image: url('../img/bg-facilitar-pagamento.jpg');
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .box-img3-content {
@@ -861,8 +871,24 @@ li:last-child:before {
 /* DESKTOP RESPONSIVO */
 
 @media only screen and (min-width: 800px) and (max-width: 1380px) {
+    .menu-box {
+        height: 60px;
+    }
+    .dropdown-position2 {
+        margin-top: 260px;
+    }
+    .dropdown-position1 {
+        margin-top: 299px;
+    }
     .right-side-box {
         margin-right: 150px;
+        margin-top: 325px;
+    }
+    .right-side-text {
+        font-size: 45px;
+    }
+    .right-side-text2 {
+        font-size: 30px;
     }
     .right-side-box2 {
         margin-right: 150px;
@@ -871,26 +897,31 @@ li:last-child:before {
         margin-right: 100px;
     }
     .center-know-more {
-        margin-top: 80px;
+        margin-top: 50px;
     }
     .list-responsive {
         width: 380px;
     }
-    .left-side-box {
-        margin-top: 0px;
-        margin-left: 80px;
-    }
-    .left-side-box2 {
-        margin-left: 80px;
+    .box-img2 {
+        background-position-x: -445px;
+        height: auto;
+        background-size: cover;
     }
     .li-responsive {
         padding-bottom: 0px;
     }
     .btn-consult {
-        margin-left: 0px;
+        margin-left: 40px;
+    }
+    .box-img3 {
+        height: auto;
+    }
+    .box-img4 {
+        background-position-x: -300px;
     }
     .center-know-more2 {
-        margin-top: 0px;
+        margin-top: 40px;
+        margin-bottom: 30px;
         margin-left: 290px;
     }
     .box-smartphone {
@@ -899,20 +930,27 @@ li:last-child:before {
     .box-text-smart {
         margin-left: 290px;
     }
+    .center-know-more3 {
+        margin-top: 0px;
+        margin-bottom: 35px;
+    }
     .left-side-box4 {
         margin-left: 145px;
     }
     .box-img5 {
-        height: 1620px;
+        height: auto;
     }
     .box5-content {
         flex-direction: column;
+        height: auto;
+        margin-bottom: 30px;
+        margin-top: 0px;
     }
     .left-content {
         margin-right: 180px;
     }
     .faq-responsive {
-        margin-top: 100px;
+        margin-top: 50px;
         margin-right: 290px;
     }
     .mobile-image {

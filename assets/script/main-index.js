@@ -14,17 +14,20 @@ function menuMobile() {
 }
 
 // Close the dropdown if the user clicks outside of it
-window.onclick = ({ target }) => {
-    if (!target.matches('.menu-options-btn')) {
-        var dropdown = document.querySelectorAll(".dropdown-content")
+// window.onclick = function(event) {
+//     console.log('oi')
+//     if (!event.target.matches('.menu-options-btn')) {
+//         var dropdowns = document.getElementsByClassName("dropdown-content");
+//         var i;
+//         for (i = 0; i < dropdowns.length; i++) {
+//             var openDropdown = dropdowns[i];
+//             if (openDropdown.classList.contains('show')) {
+//                 openDropdown.classList.remove('show');
+//             }
+//         }
+//     }
+// }
 
-        dropdown.forEach(item => {
-            if (item.classList.contains('show')) {
-                item.classList.remove('show');
-            }
-        })
-    }
-}
 
 const accordionsInfo = document.querySelectorAll('.info');
 
@@ -38,5 +41,14 @@ window.onclick = ({ target }) => {
         accordionsInfo.forEach(item => {
             if (item.style.display === '') item.style.display = 'none';
         });
+    }
+    if (!target.matches('.menu-options-btn')) {
+        var dropdown = document.querySelectorAll(".dropdown-content")
+
+        dropdown.forEach(item => {
+            if (item.classList.contains('show')) {
+                item.classList.remove('show');
+            }
+        })
     }
 }
