@@ -155,7 +155,7 @@ a {
     align-items: flex-end;
     height: 870px;
     background-image: url('../img/bg-home-parcelar-documentos-carro-moto.jpg');
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .right-side-box {
@@ -871,6 +871,10 @@ li:last-child:before {
 /* DESKTOP RESPONSIVO */
 
 @media only screen and (min-width: 800px) and (max-width: 1600px) {
+    .box-img1 {
+        height: auto;
+        background-position-x: -120px;
+    }
     .menu-box {
         height: 60px;
     }
@@ -882,7 +886,8 @@ li:last-child:before {
     }
     .right-side-box {
         margin-right: 150px;
-        margin-top: 325px;
+        margin-top: 150px;
+        height: auto;
     }
     .right-side-text {
         font-size: 45px;
@@ -892,12 +897,15 @@ li:last-child:before {
     }
     .right-side-box2 {
         margin-right: 150px;
+        padding: 0px;
     }
     .right-side-box3 {
         margin-right: 100px;
+        padding: 0px 5px 0px 9px;
     }
     .center-know-more {
         margin-top: 50px;
+        margin-bottom: 30px;
     }
     .list-responsive {
         width: 380px;
