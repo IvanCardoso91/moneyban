@@ -867,6 +867,60 @@ li:last-child:before {
 /* DESKTOP RESPONSIVO */
 
 @media only screen and (min-width: 800px) and (max-width: 1600px) {
+    /* ajustes de tamanho */
+    .menu-options-text {
+        font-size: 16px;
+    }
+
+    .menu-options-my-account {
+        font-size: 18px;
+    }
+
+    .right-side-text span {
+        font-size: 50px !important;
+    }
+
+    .left-side-box, .left-side-box2 {
+        margin-left: 100px;
+        width: 600px;
+    }
+
+    .left-side-text {
+        font-size: 36px;
+    }
+
+    .work-moneyban-text {
+        font-size: 18px;
+    }
+
+    .title-list, .subtitle-list {
+        font-size: 18px;
+    }
+
+    .btn-consult {
+        padding: 13px;
+        font-size: 20px;
+    }
+
+    .number-list {
+        font-size: 50px;
+    }
+
+    .know-more-box {
+        font-size: 14px;
+    }
+
+    .left-side-box2 ul {
+        padding: 0;
+    }
+
+    .right-side-box, .right-side-box2 {
+        margin-right: 100px !important;
+        width: 417px !important;
+    }
+
+    /* fim ajustes de tamanho */
+
     .box-img1 {
         height: auto;
         background-position-x: -120px;
@@ -882,7 +936,6 @@ li:last-child:before {
     }
     .right-side-box {
         margin-right: 150px;
-        margin-top: 150px;
         height: auto;
     }
     .right-side-text {
@@ -904,10 +957,10 @@ li:last-child:before {
         margin-bottom: 30px;
     }
     .list-responsive {
-        width: 380px;
+        width: 460px;
     }
     .box-img2 {
-        background-position-x: -445px;
+        background-position-x: -150px;
         height: auto;
         background-size: cover;
     }
@@ -924,9 +977,7 @@ li:last-child:before {
         background-position-x: -300px;
     }
     .center-know-more2 {
-        margin-top: 40px;
         margin-bottom: 30px;
-        margin-left: 290px;
     }
     .box-smartphone {
         display: none;
