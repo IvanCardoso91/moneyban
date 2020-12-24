@@ -945,6 +945,7 @@ li:last-child:before {
 
     .left-side-box4 {
         width: 500px;
+        margin-left: 100px !important;
     }
 
     .subtitle-list2, .list-text2, .subtitle-name, .subtitle-city {
@@ -962,6 +963,18 @@ li:last-child:before {
     .box-img4 {
         height: 100%;
         padding-bottom: 30px;
+    }
+
+    .left-title, .left-text {
+        font-size: 20px;
+    }
+    
+    .btn-whats {
+        margin-top: 30px;
+    }
+
+    .box5-title {
+        font-size: 36px;
     }
 
     /* fim ajustes de tamanho */
@@ -1041,17 +1054,24 @@ li:last-child:before {
         height: auto;
     }
     .box5-content {
-        flex-direction: column;
+        /* flex-direction: column; */
         height: auto;
         margin-bottom: 30px;
         margin-top: 0px;
+        margin-left: 0;
+
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 100px;
     }
     .left-content {
-        margin-right: 180px;
+        margin-right: 30px;
+        width: 50%;
     }
     .faq-responsive {
         margin-top: 50px;
-        margin-right: 290px;
+        width: 50%;
+        /* margin-right: 290px; */
     }
     .mobile-image {
         display: none;
