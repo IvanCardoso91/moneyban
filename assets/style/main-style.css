@@ -633,6 +633,14 @@ li:last-child:before {
     background-image: url('../img/bg-carro-fale-conosco.jpg');
 }
 
+.box5-div-title {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 62px;
+    margin-bottom: 35px;
+}
+
 .box5-title {
     display: flex;
     justify-content: center;
@@ -960,6 +968,7 @@ li:last-child:before {
     }
     .box5-title {
         font-size: 36px;
+        height: auto;
     }
     /* fim ajustes de tamanho */
     .box-img1 {
@@ -1034,6 +1043,9 @@ li:last-child:before {
     }
     .box-img5 {
         height: auto;
+    }
+    .box5-div-title {
+        margin-bottom: 0px;
     }
     .box5-content {
         /* flex-direction: column; */

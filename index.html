@@ -19,7 +19,7 @@
             <div id="dropdownMenuMobile" class="dropdown-content">
                 <a>Para Você</a>
                 <a>Para Sua Empresa</a>
-                <a>Sobre Nós</a>
+                <a href="#whoweare">Sobre Nós</a>
                 <a target="_blank" href="https://consulta.moneyban.com.br/meupedido.php">Minha Conta</a>
             </div>
         </div>
@@ -48,7 +48,7 @@
                 </div>
             </div>
             <div style="height: 100%; display: flex;align-items: center;">
-                <span class="menu-options-text"><a>Sobre Nós</a></span>
+                <span class="menu-options-text"><a href="#whoweare" style="color: white;">Sobre Nós</a></span>
             </div>
             <div class="menu-options-my-account"><a target="_blank" href="https://consulta.moneyban.com.br/meupedido.php" style="color: white;">Minha Conta</a></div>
         </div>
@@ -71,6 +71,10 @@
                 </select>
                 <i class="fa fa-chevron-down"></i>
                 <input type="text" placeholder="Seu renavam" id="renavam" name="crenavam" maxlength="11">
+                <input type="hidden" name="cuf" value="PR">
+                <input type="hidden" name="cnome" value="teste">
+                <input type="hidden" name="cemail" value="teste@teste.com">
+                <input type="hidden" name="cphone" value="11111111111">
                 <button type="submit" id="btn-submit">Consulte Grátis</button>
             </form>
         </div>
@@ -246,7 +250,7 @@
     </div>
 
     <div class="box-img5">
-        <div style="display: flex; justify-content: center; margin-top: 62px; margin-bottom: 35px;">
+        <div class="box5-div-title">
             <div class="box5-title">Ficou com alguma dúvida?</div>
         </div>
         <div class="box5-content">
@@ -492,7 +496,7 @@
         </div>
     </div>
 
-    <div class="about-wrapper">
+    <div class="about-wrapper" id="whoweare">
         <div>
             <h1>Quem somos</h1>
         </div>
