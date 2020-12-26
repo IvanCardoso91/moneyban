@@ -9,7 +9,7 @@ function myFunction(option) {
 }
 
 function menuMobile() {
-    document.getElementById("dropdownMenuMobile").classList.toggle("show");
+    document.getElementById("dropdownMenuMobile").style.display = 'block';
 }
 
 const accordionsInfo = document.querySelectorAll('.info');
@@ -20,6 +20,7 @@ function openAccordion({ target: { nextElementSibling } }) {
 }
 
 window.onclick = ({ target }) => {
+    console.log('target', target)
     if (!target.matches('.accordion')) {
         accordionsInfo.forEach(item => {
             if (item.style.display === '') item.style.display = 'none';
@@ -31,6 +32,15 @@ window.onclick = ({ target }) => {
         dropdown.forEach(item => {
             if (item.classList.contains('show')) {
                 item.classList.remove('show');
+            }
+        })
+    }
+    if (!target.matches('.menu-bar-mobile')) {
+        var dropdown = document.querySelectorAll(".dropdown-content")
+
+        dropdown.forEach(item => {
+            if (item.style.display = 'block') {
+                item.style.display = 'none';
             }
         })
     }
