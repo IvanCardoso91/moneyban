@@ -361,6 +361,13 @@ li:last-child:before {
     height: 6px;
 }
 
+.box-divider-number {
+    display: flex;
+    position: relative;
+    bottom: 30px;
+    margin-bottom: 35px;
+}
+
 .bullet {
     margin-left: -22px;
     width: 12px;
@@ -1241,27 +1248,55 @@ li:last-child:before {
         font-size: 9px;
     }
     .box-img2 {
-        background-position-x: -1200px;
-        background-image: url('../img/bg-como-funciona-parcelar-documentos-carro-moto.jpg');
+        background-image: url('../img/casal.jpg');
         background-size: cover;
-        height: 100%;
+        background-repeat: no-repeat;
+        height: auto;
         background-color: #222222;
-        padding: 60px 35px;
+        padding: 20px 30px;
+        align-items: center;
     }
     .btn-consult {
-        margin-left: 200px;
+        margin-left: 90px;
+        width: 200px;
+        font-size: 15px;
     }
     .left-side-box {
-        margin-left: 90px;
         margin-top: 10px;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .left-side-text {
+        font-size: 25px;
+    }
+    .work-moneyban-text {
+        font-size: 15px;
     }
     .left-side-box2 {
-        margin-left: 50px;
+        margin-left: -70px;
         margin-top: 0px;
+        width: 100%;
+    }
+    .number-list {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    .title-list {
+        font-size: 15px;
+    }
+    .subtitle-list {
+        font-size: 15px
     }
     .text-display-list {
-        width: 500px;
+        width: 246px;
+        margin-top: 10px;
+    }
+    li {
+        padding-bottom: 0em;
+    }
+    .box-divider-number {
+        margin-bottom: 15px;
     }
     .box-img3 {
         height: 100%;
