@@ -9,7 +9,11 @@ function myFunction(option) {
 }
 
 function menuMobile() {
-    document.getElementById("dropdownMenuMobile").style.display = 'block';
+    if (document.getElementById("dropdownMenuMobile").style.display === 'block') {
+        document.getElementById("dropdownMenuMobile").style.display = 'none';
+    } else {
+        document.getElementById("dropdownMenuMobile").style.display = 'block'
+    }
 }
 
 const accordionsInfo = document.querySelectorAll('.info');

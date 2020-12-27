@@ -563,6 +563,17 @@ li:last-child:before {
     color: #FF781D;
 }
 
+.box4-subtitle-mobile {
+    display: none;
+}
+
+.label-comma {
+    position: relative;
+    font-size: 85px;
+    top: 40px;
+    padding-right: 30px;
+}
+
 .content-text {
     font-size: 25px;
     color: #FFFFFF;
@@ -574,6 +585,21 @@ li:last-child:before {
     color: #FF781D;
     margin-top: 35px;
     margin-bottom: 35px;
+}
+
+.btn-consult3 {
+    background: #FF781D;
+    border-radius: 51px;
+    outline: 0;
+    padding: 16px;
+    border-color: transparent;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 10px rgba(255, 120, 29, .3);
+    width: 326px;
+    margin-top: 30px;
 }
 
 .center-know-more4 {
@@ -1059,6 +1085,9 @@ li:last-child:before {
     .left-side-box4 {
         margin-left: 145px;
     }
+    .box4-subtitle-mobile {
+        display: none;
+    }
     .box-img5 {
         height: auto;
     }
@@ -1128,6 +1157,9 @@ li:last-child:before {
         display: none;
     }
     .appointment-section-mobile {
+        display: none;
+    }
+    .box4-subtitle-mobile {
         display: none;
     }
 }
@@ -1305,43 +1337,118 @@ li:last-child:before {
     .box-img3-content {
         display: none;
     }
+    .title-list2 {
+        font-size: 25px;
+        text-align: left;
+        width: 80%;
+        margin-bottom: 0px;
+    }
+    .subtitle-list2 {
+        font-size: 15px;
+        text-align: left;
+        width: 80%;
+        margin-bottom: 0px;
+    }
     .box-img3-content-mobile {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 60px 36px;
+        padding: 20px 0px;
         text-align: center;
     }
     .box-smartphone {
         margin-right: 0px;
         margin-top: 0px;
         margin-left: 0px;
-        transform: matrix(0.87, -0.5, 0.5, 0.87, 0, 0);
-        margin-bottom: 100px;
+        margin-bottom: 30px;
+    }
+    .smartphone-small-mobile {
+        height: 290px;
+        width: 270px;
+    }
+    .box-text-smart {
+        width: 80%;
+    }
+    .icon-mobile-list {
+        height: 25px;
+    }
+    .list-text2 {
+        font-size: 15px;
+        text-align: left;
+        padding-bottom: 0px;
     }
     .btn-consult2 {
-        margin-left: 150px;
+        margin-left: 0px;
+        font-size: 15px;
+        width: 200px;
+        padding: 7px 10px;
+        margin-top: 10px;
     }
     .center-know-more3 {
-        margin-top: 20px;
+        margin-top: 10px;
         margin-bottom: 20px;
     }
     .box-img4 {
-        background-position-x: -1000px;
         align-items: center;
-        height: 100%;
-        background-image: linear-gradient(to bottom, transparent, #222222, #222222), url('../img/bg-depoimento-parcelamento-documentacao.jpg');
-        padding: 60px 36px;
+        background-image: url('../img/homem-volante.jpg');
+        padding: 20px 35px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: auto;
+        background-color: #222222;
+    }
+    .box4-title {
+        font-size: 25px;
     }
     .box4-subtitle {
-        margin-bottom: 125px;
+        display: none;
     }
     .left-side-box4 {
         margin-left: 0px;
         margin-top: 0px;
+        width: 100%;
+        align-content: center;
+    }
+    .subtitle-name {
+        font-size: 15px;
+    }
+    .subtitle-city {
+        font-size: 15px;
+    }
+    .box-orange {
+        width: 17px;
+        height: 13px;
+    }
+    .box4-subtitle-mobile {
+        font-size: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
     }
     .content-text {
-        margin-top: 385px;
+        margin-top: 100px;
+        font-size: 15px;
+    }
+    .label-comma {
+        font-size: 50px;
+        top: 20px;
+        padding-right: 5px;
+    }
+    .content-subtext {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .btn-consult3 {
+        margin-left: 0px;
+        font-size: 15px;
+        width: 200px;
+        padding: 7px 10px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .center-know-more4 {
+        margin-top: 20px;
     }
     .box-img5 {
         display: none;
