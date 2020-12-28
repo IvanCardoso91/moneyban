@@ -1252,7 +1252,7 @@ li:last-child:before {
     select {
         font-size: 16px;
         margin-right: -20px;
-        width: 40px;
+        width: 45px;
     }
     #renavam {
         font-size: 13px;
@@ -1349,7 +1349,7 @@ li:last-child:before {
         font-size: 15px;
         text-align: left;
         width: 80%;
-        margin-bottom: 0px;
+        margin-bottom: 10px;
     }
     .box-img3-content-mobile {
         display: flex;
@@ -1377,7 +1377,7 @@ li:last-child:before {
     .list-text2 {
         font-size: 15px;
         text-align: left;
-        padding-bottom: 0px;
+        padding-bottom: 5px;
     }
     .btn-consult2 {
         margin-left: 0px;
