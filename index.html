@@ -7,7 +7,7 @@
     <meta name="description" content="Faça seu licenciamento online sem sair de casa, pague IPVA, multas, renainf, dpvat, dívida ativa sem sair de casa">
     <link rel="stylesheet" href="./assets/style/main-style.css" type="text/css">
     <link href="./assets/fontawesome-free/css/all.css" rel="stylesheet">
-    <title>Moneyban - Pagamento de débitos de veículos online!</title>
+    <title>Parcele o IPVA e todos os débitos do seu veículo em 12x no cartão de crédito</title>
     <div class="menu-box">
         <div class="site-title">
             <img src="./assets/img/moneyban 3.png" alt="moneyban" class="img-title-moneyban" />
@@ -20,7 +20,7 @@
                 <a>Para Você</a>
                 <a>Para Sua Empresa</a>
                 <a href="#whoweare">Sobre Nós</a>
-                <a target="_blank" href="https://consulta.moneyban.com.br/meupedido.php">Minha Conta</a>
+                <a target="_blank" href="https://consulta.moneyban.com.br/meupedido.php">Status do Pedido</a>
             </div>
         </div>
         <div class="menu-options">
@@ -50,7 +50,7 @@
             <div style="height: 100%; display: flex;align-items: center;">
                 <span class="menu-options-text"><a href="#whoweare" style="color: white;">Sobre Nós</a></span>
             </div>
-            <div class="menu-options-my-account"><a target="_blank" href="https://consulta.moneyban.com.br/meupedido.php" style="color: white;">Minha Conta</a></div>
+            <div class="menu-options-my-account"><a target="_blank" href="https://consulta.moneyban.com.br/meupedido.php" style="color: white;">Status do Pedido</a></div>
         </div>
     </div>
 </head>
@@ -66,6 +66,7 @@
         <div class="right-side-box3">
             <form method="post" action="https://consulta.moneyban.com.br/licenciamento.php" name="form">
                 <select>
+                    <option disabled selected hidden>UF</option>
                     <option value="PR">PR</option>
                     <option value="SP">SP</option>
                 </select>
@@ -444,7 +445,7 @@
                 <span class="left-text">Se preferir, você também pode conversar conosco através de nosso Whatsapp ou email. Teremos o maior prazer em atendê-lo</span>
                 <span class="left-text"><strong>(11) 98789-7777 </strong> - Exclusivo WhatsApp</span>
                 <span class="left-text"><strong>meajuda@moneyban.com.br</strong></span>
-                <button class="btn-whats">Fale conosco pelo Whatsapp</button>
+                <a href="https://api.whatsapp.com/send?phone=5511987897777"><button class="btn-whats">Fale conosco pelo Whatsapp</button></a>
             </div>
             <a href="#" class="make-appointment">Faça sua consulta grátis <i class="fas fa-chevron-down"></i></a>
         </div>
@@ -463,12 +464,17 @@
                 <form method="post" action="https://consulta.moneyban.com.br/licenciamento.php" name="form">
                     <div>
                         <select style="padding: 0;">
+                            <option disabled selected hidden>UF</option>
                             <option value="PR">PR</option>
                             <option value="SP">SP</option>
                         </select>
                         <i class="fa fa-chevron-down" style="margin-left: 5px; color: #222;"></i>
                     </div>
                     <input type="text" placeholder="Seu renavam" id="renavam" name="crenavam" maxlength="11">
+                    <input type="hidden" name="cuf" value="PR">
+                    <input type="hidden" name="cnome" value="teste">
+                    <input type="hidden" name="cemail" value="teste@teste.com">
+                    <input type="hidden" name="cphone" value="11111111111">
                     <button type="submit" class="search-renavam-btn">Consulte Grátis</button>
                 </form>
             </div>
@@ -491,12 +497,17 @@
                 <form method="post" action="https://consulta.moneyban.com.br/licenciamento.php" name="form">
                     <div>
                         <select style="padding: 0;">
+                            <option disabled selected hidden>UF</option>
                             <option value="PR">PR</option>
                             <option value="SP">SP</option>
                         </select>
                         <i class="fa fa-chevron-down" style="margin-left: 5px; color: #222;"></i>
                     </div>
                     <input type="text" placeholder="Seu renavam" id="renavam" name="crenavam" maxlength="11">
+                    <input type="hidden" name="cuf" value="PR">
+                    <input type="hidden" name="cnome" value="teste">
+                    <input type="hidden" name="cemail" value="teste@teste.com">
+                    <input type="hidden" name="cphone" value="11111111111">
                     <button type="submit" class="search-renavam-btn">Consulte Grátis</button>
                 </form>
             </div>
