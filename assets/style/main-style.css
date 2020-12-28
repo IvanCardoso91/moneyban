@@ -1251,6 +1251,8 @@ li:last-child:before {
     }
     select {
         font-size: 16px;
+        margin-right: -20px;
+        width: 40px;
     }
     #renavam {
         font-size: 13px;
@@ -1453,6 +1455,17 @@ li:last-child:before {
     .box-img5 {
         display: none;
     }
+    .box5-title {
+        font-size: 25px;
+        height: auto;
+        width: 80%;
+        text-align: center;
+    }
+    .left-title {
+        text-align: left;
+        font-size: 15px;
+        width: 80%;
+    }
     .box5-content {
         flex-direction: column;
         align-items: center;
@@ -1462,25 +1475,43 @@ li:last-child:before {
     .faq-responsive {
         margin-top: 0px;
         margin-bottom: 40px;
+        width: 80%;
+    }
+    .accordion-item {
+        width: 100%;
+    }
+    .accordion {
+        font-size: 15px;
     }
     .box-img5-mobile {
         display: flex;
         flex-direction: column;
         background-image: url('../img/bg-carro-fale-conosco.jpg');
         background-repeat: no-repeat;
-        height: 1500px;
+        height: auto;
         background-size: cover;
-    }
-    .left-title {
-        text-align: center;
     }
     .left-content {
         margin-right: 0px;
         align-items: center;
-        text-align: center;
+        text-align: left;
+        width: 80%;
+    }
+    .left-text {
+        font-size: 15px;
+    }
+    .btn-whats {
+        width: 85%;
+        font-size: 15px;
+        padding: 7px 10px;
     }
     .mobile-image {
         display: none;
+    }
+    .make-appointment {
+        font-size: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
     .appointment-section {
         display: none;
@@ -1492,32 +1523,68 @@ li:last-child:before {
         color: #fff;
         height: 100%;
     }
+    .mobile-image-mob {
+        width: 80%;
+    }
     .appointment-text {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+    .appointment-text h1 {
+        font-size: 25px;
+    }
     .search-renavam {
-        padding: 20px;
-        width: 602px;
+        padding: 7px 10px;
+        width: 85%;
         margin-bottom: 40px;
     }
+    .search-renavam-btn {
+        font-size: 15px;
+    }
     .about-wrapper {
-        padding: 20px 36px 20px 36px;
+        padding: 0px 30px;
+        align-items: flex-start;
+    }
+    .values {
+        width: 80%;
+    }
+    .about-wrapper h1 {
+        font-size: 25px;
+    }
+    .values-item p {
+        font-size: 15px;
     }
     .about {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
     }
     .about-text {
         margin-right: 0px;
+        width: 80%;
+        font-size: 15px;
+    }
+    .values h3 {
+        font-size: 15px;
+    }
+    .consult-free-bottom-mobile {
+        margin-bottom: 20px;
+        margin-left: 70px;
+        margin-top: 20px;
     }
     .footer {
         padding: 0px;
     }
+    .contact-logo {
+        width: 144px;
+    }
+    .social-media img {
+        width: 36px;
+        height: 36px;
+    }
     .footer-info {
-        width: 50%;
+        width: 80%;
         flex-direction: column;
         align-items: center;
         margin-top: 35px;
@@ -1527,8 +1594,17 @@ li:last-child:before {
         margin-left: 0px;
         margin-top: 30px;
     }
+    .footer-text h3 {
+        font-size: 18px;
+    }
+    .footer-text p strong {
+        font-size: 20px;
+    }
+    .accepted-cards {
+        margin-top: 20px;
+    }
     .cards-mobile {
-        width: 500px;
+        width: 335px;
     }
 }
 
