@@ -39,13 +39,13 @@ window.onclick = ({ target }) => {
             }
         })
     }
-    if (!target.matches('.menu-bar-mobile')) {
-        var dropdown = document.querySelectorAll(".dropdown-content")
+    // if (!target.matches('.menu-bar-mobile')) {
+    //     var dropdown = document.querySelectorAll(".dropdown-content")
 
-        dropdown.forEach(item => {
-            if (item.style.display = 'block') {
-                item.style.display = 'none';
-            }
-        })
-    }
+    //     dropdown.forEach(item => {
+    //         if (item.style.display = 'block') {
+    //             item.style.display = 'none';
+    //         }
+    //     })
+    // }
 }
