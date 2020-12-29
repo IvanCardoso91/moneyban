@@ -1185,6 +1185,12 @@ li:last-child:before {
         background-color: transparent;
         margin-right: 17px;
     }
+    .list-menu-mobile {
+        padding-top: 10px;
+    }
+    .list-menu-mobile::before {
+        background-color: transparent;
+    }
     .fa-bars {
         font-size: 32px;
         color: #FFFFFF;
@@ -1199,7 +1205,7 @@ li:last-child:before {
     .dropdown-content {
         display: none;
         font-size: 14px;
-        background-color: #222222B3;
+        background-color: rgba(34, 34, 34, 1);
         cursor: pointer;
         opacity: 1;
         border: 2px solid transparent;
@@ -1398,6 +1404,7 @@ li:last-child:before {
         background-repeat: no-repeat;
         height: auto;
         background-color: #222222;
+        width: auto;
     }
     .box4-title {
         font-size: 25px;
